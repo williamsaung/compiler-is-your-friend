@@ -11,4 +11,13 @@ You can use Google to look up the method calls.
 Questions:
 1) How to ensure that the input is a string at compile time?
 2) What did you learn from this exercise?
-*/
+I learnt about indexOf function and typescript type in function.
+*/ 
+
+function scriptAt(someString: String) {
+    console.log(someString.indexOf('Script'));
+    // console.log(someString);
+}
+
+scriptAt('Script');
+scriptAt(1);

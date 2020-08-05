@@ -14,9 +14,10 @@ to set the `divisor` member variable.
 
 Questions:
 1) What did you learn from this exercise?
+I learnt about protection of variable to be called from the other function.
 */
 class SafeDivisor {
-    divisor: number = 1;
+    private divisor: number = 1;
 
     setDivisor(value: number) {
         if (value == 0) {
